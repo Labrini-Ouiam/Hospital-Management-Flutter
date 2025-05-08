@@ -2,6 +2,10 @@
 
 Une application mobile simple développée avec Flutter permettant de gérer les informations des hôpitaux, consulter les détails, et simuler la réservation de lits disponibles.
 
+![image](https://github.com/user-attachments/assets/97017ab5-03c6-43be-b7c9-86bc6786a854)
+![image](https://github.com/user-attachments/assets/5f5cffef-aab8-44fd-8e25-6d8f335eff35)
+![image](https://github.com/user-attachments/assets/104b216e-072a-42e1-a454-c4a6e55104c1)
+
 ## 🔗 Dépôt GitHub
 
 https://github.com/Labrini-Ouiam/Hospital-Management-Flutter.git
@@ -47,24 +51,24 @@ assets/
 
 ### Étapes
 
-```bash
-git clone https://github.com/Labrini-Ouiam/Hospital-Management-Flutter.git
-cd Hospital-Management-Flutter
-flutter pub get
-flutter run
+- git clone https://github.com/Labrini-Ouiam/Hospital-Management-Flutter.git
+- cd Hospital-Management-Flutter
+- flutter pub get
+- flutter run
 
-Description des principaux fichiers
-main.dart : Point d’entrée de l’application.
+## Description des principaux fichiers
 
-home_screen.dart : Écran d'accueil avec navigation vers la liste.
+- main.dart : Point d’entrée de l’application.
 
-hospital_list_screen.dart : Liste des hôpitaux avec leurs infos de base.
+- home_screen.dart : Écran d'accueil avec navigation vers la liste.
 
-hospital_detail_screen.dart : Détails d’un hôpital + bouton de réservation.
+- hospital_list_screen.dart : Liste des hôpitaux avec leurs infos de base.
 
-hospital_card.dart : Widget personnalisable pour afficher un hôpital dans une carte.
+- hospital_detail_screen.dart : Détails d’un hôpital + bouton de réservation.
 
-hospital.dart : Modèle de données de l’hôpital (nom, adresse, image, téléphone, etc.).
+- hospital_card.dart : Widget personnalisable pour afficher un hôpital dans une carte.
+
+- hospital.dart : Modèle de données de l’hôpital (nom, adresse, image, téléphone, etc.).
 
 ## Améliorations possibles
 
